@@ -59,7 +59,10 @@
     <main>
       <section class="container about" id="about">
         <div class="main-title">
-          <h2>About <span>me</span><span class="bg-text">my stats</span></h2>
+          <h2>
+            About <span>me</span
+            ><span style="display: none" class="bg-text">my stats</span>
+          </h2>
         </div>
         <div class="about-container">
           <div class="left-about">
@@ -68,9 +71,12 @@
               I am a Moroccan based in The Netherlands.
               <br />
               I am a fourth semester Software Engineer student at Fontys
-              University of Applied Sciences. For this semester, we cover Mobile
-              Apps development for IOS & Andriod platforms as well as PWA
-              (Progressive Web Applications) /Hybrid development.
+              University of Applied Sciences.
+              <br />
+              <br />
+              For this semester, we cover Mobile Apps development for IOS &
+              Andriod platforms as well as PWA (Progressive Web Applications)
+              /Hybrid development.
               <br />
               <br />
               The technologies we are using are SwiftUI, Andriod Studio, Kotlin,
@@ -112,7 +118,7 @@
               <div class="abt-text">
                 <p class="large-text">10+</p>
                 <p class="small-text">
-                  Projects <br />
+                  School Projects <br />
                   Completed
                 </p>
               </div>
@@ -531,85 +537,104 @@
       <section class="container contact" id="contact">
         <div class="contact-container">
           <div class="main-title">
-            <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
+            <h2>
+              Contact <span>Me</span
+              ><span style="display: none" class="bg-text">Contact</span>
+            </h2>
           </div>
           <div class="contact-content-con">
             <div class="left-contact">
               <h4>Contact me here</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
-                laborum numquam? Quam excepturi perspiciatis quas quasi.
+                For any inquiries, collaborations, job offers, freelance works,
+                etc.
+                <br />
+                Please feel free to drop me a message.
+                <br />
+                I will reply as soon as possible.
               </p>
               <div class="contact-info">
                 <div class="contact-item">
                   <div class="icon">
                     <em class="fas fa-map-marker-alt"></em>
-                    <span>Location</span>
+                    <span>Location :</span>
                   </div>
-                  <p>: London, united Kingdom</p>
+                  <p>The Netherlands</p>
                 </div>
-                <div class="contact-item">
+                <div style="display: none" class="contact-item">
                   <div class="icon">
                     <em class="fas fa-envelope"></em>
-                    <span>Email</span>
+                    <span>Email :</span>
                   </div>
                   <p>
-                    <span>: maclinzuniversal@gmail.com</span>
+                    <span>contact@gmail.com</span>
                   </p>
                 </div>
                 <div class="contact-item">
                   <div class="icon">
                     <em class="fas fa-user-graduate"></em>
-                    <span>Education</span>
+                    <span>Education :</span>
                   </div>
                   <p>
-                    <span>: Sussex University, East Sussex</span>
+                    <span>Fontys University, The Netherlands</span>
                   </p>
                 </div>
-                <div class="contact-item">
+                <div style="display: none" class="contact-item">
                   <div class="icon">
                     <em class="fas fa-user-graduate"></em>
-                    <span>Mobile Number</span>
+                    <span>Mobile Number :</span>
                   </div>
                   <p>
-                    <span>: 07522670617</span>
+                    <span>0000000000</span>
                   </p>
                 </div>
                 <div class="contact-item">
                   <div class="icon">
-                    <em class="fas fa-globe-africa"></em>>
-                    <span>Languages</span>
+                    <em class="fas fa-globe-africa"></em>
+                    <span>Languages :</span>
                   </div>
                   <p>
-                    <span>: Afrikaans, English, Spanish</span>
+                    <span>English, French, Arabic, Basic Dutch</span>
                   </p>
                 </div>
               </div>
               <div class="contact-icons">
                 <div class="contact-icon">
-                  <a href="www.facebook.com" target="_blank">
+                  <!-- <a href="www.facebook.com" target="_blank">
                     <em class="fab fa-facebook-f"></em>
-                  </a>
-                  <a href="#" target="_blank">
+                  </a> -->
+                  <!-- <a href="#" target="_blank">
                     <em class="fab fa-twitter"></em>
+                  </a> -->
+                  <a
+                    href="https://www.linkedin.com/in/ismail-chbiki/"
+                    target="_blank"
+                  >
+                    <em class="fab fa-linkedin"></em>
                   </a>
-                  <a href="#" target="_blank">
+                  <a href="https://github.com/ismailchbiki" target="_blank">
                     <em class="fab fa-github"></em>
                   </a>
-                  <a href="#" target="_blank">
-                    <em class="fab fa-youtube"></em>
+                  <a
+                    href="https://www.instagram.com/ismail_chbiki/"
+                    target="_blank"
+                  >
+                    <em class="fab fa-instagram"></em>
                   </a>
+                  <!-- <a href="#" target="_blank">
+                    <em class="fab fa-youtube"></em>
+                  </a> -->
                 </div>
               </div>
             </div>
             <div class="right-contact">
               <form action="" class="contact-form">
                 <div class="input-control i-c-2">
-                  <input type="text" required placeholder="YOUR NAME" />
-                  <input type="email" required placeholder="YOUR EMAIL" />
+                  <input type="text" placeholder="YOUR NAME" required />
+                  <input type="email" placeholder="YOUR EMAIL" required />
                 </div>
                 <div class="input-control">
-                  <input type="text" required placeholder="ENTER SUBJECT" />
+                  <input type="text" placeholder="ENTER SUBJECT" required />
                 </div>
                 <div class="input-control">
                   <textarea
@@ -618,14 +643,15 @@
                     cols="15"
                     rows="8"
                     placeholder="Message Here..."
+                    required
                   ></textarea>
                 </div>
                 <div class="submit-btn">
                   <a href="#" class="main-btn">
-                    <span class="btn-text">Download CV</span>
-                    <span class="btn-icon"
+                    <span class="btn-text">Submit</span>
+                    <!-- <span class="btn-icon"
                       ><em class="fas fa-download"></em
-                    ></span>
+                    ></span> -->
                   </a>
                 </div>
               </form>
