@@ -226,10 +226,9 @@ section {
 /*About*/
 .about-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   padding-top: 3.5rem;
   padding-bottom: 5rem;
-  margin: 0 -2rem;
 }
 
 .about-container .right-about {
@@ -284,7 +283,7 @@ section {
 }
 
 .about-container .left-about {
-  padding-right: 4rem;
+  padding-right: 2rem;
 }
 
 .about-container .left-about p {
@@ -346,27 +345,43 @@ section {
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .html {
-  width: 80%;
-}
-
-.about-stats .progress-bars .progress-bar .progress-con .progress .css {
-  width: 95%;
-}
-
-.about-stats .progress-bars .progress-bar .progress-con .progress .js {
-  width: 75%;
-}
-
-.about-stats .progress-bars .progress-bar .progress-con .progress .react {
   width: 60%;
 }
 
-.about-stats .progress-bars .progress-bar .progress-con .progress .node {
-  width: 87%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .css {
+  width: 40%;
 }
 
-.about-stats .progress-bars .progress-bar .progress-con .progress .python {
+.about-stats .progress-bars .progress-bar .progress-con .progress .js {
+  width: 50%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .react {
+  width: 50%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .c-sharp {
   width: 70%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .java {
+  width: 70%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .databases {
+  width: 70%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .devops {
+  width: 40%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .git {
+  width: 70%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .scrum {
+  width: 85%;
 }
 
 .stat-title {
