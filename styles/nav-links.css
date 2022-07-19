@@ -37,9 +37,9 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-    .nav-links {
+    /* .nav-links {
         opacity: 60%;
-    }
+    } */
 
     /* .nav-links a {
         padding: 10px 0;
