@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+}
+
+.nav-links {
+    background-color: #27AE60;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+.nav-links a {
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nav-links a.logo {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 1.5px;
+}
+
+.nav-links a:hover {
+    background-color: chartreuse;
+    color: black;
+}
+
+.nav-links-right {
+    float: right;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+@media screen and (max-width: 600px) {
+    .nav-links {
+        opacity: 60%;
+    }
+
+    .nav-links a {
+        padding: 10px 0;
+        float: none;
+        display: block;
+        text-align: center;
+    }
+
+    .nav-links-right {
+        float: none;
+    }
+}
+
+
+
+/* .nav-links {
+    position: fixed;
+    top: 0;
+    width: 100%;
+} */
