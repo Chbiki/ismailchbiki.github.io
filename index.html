@@ -66,6 +66,11 @@
           target="_blank"
           class="fa fa-twitter"
         ></a>
+        <a
+          href="https://www.youtube.com/c/IsmailChbiki"
+          target="_blank"
+          class="fa fa-youtube"
+        ></a>
       </div>
     </div>
     <header class="container header active" id="home">
@@ -645,12 +650,6 @@
               </div>
               <div class="contact-icons">
                 <div class="contact-icon">
-                  <!-- <a href="www.facebook.com" target="_blank">
-                    <em class="fab fa-facebook-f"></em>
-                  </a> -->
-                  <!-- <a href="#" target="_blank">
-                    <em class="fab fa-twitter"></em>
-                  </a> -->
                   <a
                     href="https://www.linkedin.com/in/ismailchbiki/"
                     target="_blank"
@@ -669,9 +668,12 @@
                   <a href="https://twitter.com/Ismailchbiki" target="_blank">
                     <em class="fab fa-twitter"></em>
                   </a>
-                  <!-- <a href="#" target="_blank">
+                  <a
+                    href="https://www.youtube.com/c/IsmailChbiki"
+                    target="_blank"
+                  >
                     <em class="fab fa-youtube"></em>
-                  </a> -->
+                  </a>
                 </div>
               </div>
             </div>
@@ -721,7 +723,7 @@
                         style="
                           background: transparent;
                           border: none;
-                          color: azure;
+                          color: var(--color-white);
                           font-size: 21px;
                         "
                       >
@@ -759,4 +761,14 @@
     </div>
     <script src="app.js"></script>
   </body>
+  <footer>
+    <p id="current_date" class="footer-copyright">
+      <script>
+        date = new Date();
+        year = date.getFullYear();
+        document.getElementById("current_date").innerHTML =
+          "© " + year + " Ismail Chbiki";
+      </script>
+    </p>
+  </footer>
 </html>

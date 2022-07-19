@@ -17,6 +17,7 @@
   --color-grey-4: #454e56;
   --color-grey-5: #2a2e35;
   --color-grey-6: #12181b;
+  --color-chartreuse: #7FFF00;
   --br-sm-2: 14px;
   --box-shadow-1: 0 3px 15px rgba(0, 0, 0, .3);
 }
@@ -33,6 +34,7 @@
   --color-grey-4: #454e56;
   --color-grey-5: #f8f8f8;
   --color-grey-6: #12181b;
+  --color-chartreuse: #ffb6c1;
 }
 
 body {
@@ -115,7 +117,7 @@ section {
   box-shadow: var(--box-shadow-1);
 }
 
-.controls .control i {
+.controls .control em {
   font-size: 1.2rem;
   color: var(--color-grey-2);
   pointer-events: none;
@@ -126,7 +128,7 @@ section {
   transition: all 0.4s ease-in-out;
 }
 
-.controls .active-btn i {
+.controls .active-btn em {
   color: var(--color-white);
 }
 
@@ -151,7 +153,7 @@ section {
   transform: translateY(-3px);
 }
 
-.theme-btn i {
+.theme-btn em {
   font-size: 1.4rem;
   color: var(--color-grey-2);
   pointer-events: none;
@@ -433,7 +435,7 @@ section {
   justify-content: center;
 }
 
-.timeline .timeline-item .tl-icon i {
+.timeline .timeline-item .tl-icon em {
   font-size: 1.3rem;
 }
 
@@ -530,7 +532,7 @@ section {
   transition: all 0.4s ease-in-out;
 }
 
-.portfolios .portfolio-item .hover-items .icons .icon i {
+.portfolios .portfolio-item .hover-items .icons .icon em {
   font-size: 1.5rem;
   color: var(--color-white);
   margin: 0 1rem;
@@ -645,7 +647,7 @@ section {
   grid-template-columns: 40px 1fr;
 }
 
-.contact-content-con .left-contact .contact-info .contact-item .icon i {
+.contact-content-con .left-contact .contact-info .contact-item .icon em {
   display: flex;
   align-items: center;
   font-size: 1.3rem;
@@ -674,11 +676,11 @@ section {
   background-color: var(--color-secondary);
 }
 
-.contact-content-con .left-contact .contact-icon a:hover i {
+.contact-content-con .left-contact .contact-icon a:hover em {
   color: var(--color-primary);
 }
 
-.contact-content-con .left-contact .contact-icon a i {
+.contact-content-con .left-contact .contact-icon a em {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -854,6 +856,7 @@ section {
     transform: translateX(-50%);
     width: 100%;
     background-color: var(--color-grey-5);
+
   }
 
   .controls .control {
@@ -952,6 +955,15 @@ section {
   .main-title h2 .bg-text {
     font-size: 2.3rem;
   }
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  color: var(--color-white);
+  padding: 1rem;
+  font-size: 15px;
 }
 
 @media screen and (max-width: 1432px) {
