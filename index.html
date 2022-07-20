@@ -97,7 +97,18 @@
             student at Fontys University of Applied Sciences in Einhoven, The
             Netherlands.<br />
             I love building and developing software.
+            <br />
+            <br />
+            Click
+            <u
+              class="control"
+              data-id="about"
+              style="cursor: pointer; color: var(--color-secondary)"
+              >here</u
+            >
+            to find out more about me.
           </p>
+
           <!-- <div class="btn-con">
             <a href="" class="main-btn">
               <span class="btn-text">Download CV</span>
@@ -750,10 +761,16 @@
 
     <div class="controls">
       <div class="control active-btn" data-id="home">
-        <em class="fas fa-home"></em>
+        <div class="item">
+          <div class="tooltip">Homepage</div>
+          <em class="fas fa-home"></em>
+        </div>
       </div>
       <div class="control" data-id="about">
-        <em class="fas fa-user"></em>
+        <div class="item">
+          <div class="tooltip">About</div>
+          <em class="fas fa-user"></em>
+        </div>
       </div>
       <!-- <div class="control" data-id="portfolio">
         <em class="fas fa-briefcase"></em>
@@ -762,11 +779,17 @@
         <em class="far fa-newspaper"></em>
       </div> -->
       <div class="control" data-id="contact">
-        <em class="fas fa-envelope-open"></em>
+        <div class="item">
+          <div class="tooltip">Contact</div>
+          <em class="fas fa-envelope-open"></em>
+        </div>
       </div>
     </div>
     <div class="theme-btn">
-      <em class="fas fa-adjust"></em>
+      <div class="item">
+        <div class="tooltip">Theme</div>
+        <em class="fas fa-adjust"></em>
+      </div>
     </div>
     <footer>
       <p id="current_date" class="footer-copyright">

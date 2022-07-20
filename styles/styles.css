@@ -123,6 +123,24 @@ section {
   pointer-events: none;
 }
 
+.item:hover>.tooltip {
+  display: inline;
+}
+
+.tooltip {
+  position: absolute;
+  background-color: #454e56;
+  border-radius: 3px;
+  color: #fff;
+  padding: 0.2rem 0.5rem;
+  left: -9vh;
+  transform: translateX(-50%);
+  /* top: -35px; */
+  display: none;
+  transition: all 0.4s;
+  font-size: 15px;
+}
+
 .controls .active-btn {
   background-color: var(--color-secondary);
   transition: all 0.4s ease-in-out;
@@ -165,7 +183,6 @@ section {
   grid-template-columns: repeat(2, 1fr);
   min-height: 100vh;
   margin-top: 4vh;
-
 }
 
 .header-content .left-header {
@@ -869,7 +886,6 @@ section {
     transform: translateX(-50%);
     width: 100%;
     background-color: var(--color-grey-5);
-
   }
 
   .controls .control {
