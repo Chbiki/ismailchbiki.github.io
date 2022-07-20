@@ -15,6 +15,7 @@
 
       gtag("config", "UA-234914752-1");
     </script>
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -78,7 +79,7 @@
         <div class="left-header">
           <div class="h-shape"></div>
           <div class="image">
-            <img src="img/hero.png" alt="" />
+            <img src="img/my-photo.png" alt="" />
           </div>
         </div>
         <div class="right-header">
@@ -116,51 +117,59 @@
         </div>
         <div class="about-container">
           <div class="left-about">
-            <h4>Information About me</h4>
-            <p>
-              I am a Moroccan based in The Netherlands.
-              <br />
-              I am a fourth semester Software Engineer student at Fontys
-              University of Applied Sciences.
-              <br />
-              <br />
-              For this semester, we cover Mobile Apps development for IOS &
-              Andriod platforms as well as PWA (Progressive Web Applications)
-              /Hybrid development.
-              <br />
-              <br />
-              The technologies we are using are SwiftUI, Andriod Studio, Kotlin,
-              HTML/CSS/JavaScript and/or Flutter/React Native for PWA and Hybrid
-              development.
-              <br />
-              <br />
-              In semester 3, we covered the Full Stack development of dynamic
-              web apps using React for the frontend and Java/Springboot for the
-              backend as well as SQL and NoSQL Databases.
-              <br />
-              We also covered DevOps using Docker, CI/CD and automated testing
-              for both ends.
-              <br />
-              <br />
-              In semester 2, we developed Web and Desktop Apps using C#, Razor
-              Pages, MVC, ASP.NET Core, and WPF
+            <div class="read-more-container">
+              <div class="container-about-me">
+                <h4>Information About me</h4>
+                <p>
+                  I am a Moroccan based in The Netherlands.
+                  <br />
+                  I am a fourth semester Software Engineer student at Fontys
+                  University of Applied Sciences.
+                  <br />
+                  <br />
+                  For this semester, we cover Mobile Apps development for IOS &
+                  Andriod platforms as well as PWA (Progressive Web
+                  Applications) /Hybrid development.
+                  <br />
+                  <br />
+                  <span class="read-more-text">
+                    The technologies we are using are SwiftUI, Andriod Studio,
+                    Kotlin, HTML/CSS/JavaScript and/or Flutter/React Native for
+                    PWA and Hybrid development.
+                    <br />
+                    <br />
+                    In semester 3, we covered the Full Stack development of
+                    dynamic web apps using React for the frontend and
+                    Java/Springboot for the backend as well as SQL and NoSQL
+                    Databases.
+                    <br />
+                    We also covered DevOps using Docker, CI/CD and automated
+                    testing for both ends.
+                    <br />
+                    <br />
+                    In semester 2, we developed Web and Desktop Apps using C#,
+                    Razor Pages, MVC, ASP.NET Core, and WPF
 
-              <br />
-              <br />
-              During all these semesters, there was a huge emphasis on writing
-              clean code with solid, maintainable, and scalable architecture by
-              respecting the design principles (SOLID, DRY, Separation of
-              Concerns, code readability, etc)
-              <br />
-              There was also a huge emphasis on The Apps Security (e.g. SQL
-              enjection, Secure APIs, etc).
-            </p>
-            <!-- <div class="btn-con">
+                    <br />
+                    <br />
+                    During all these semesters, there was a huge emphasis on
+                    writing clean code with solid, maintainable, and scalable
+                    architecture by respecting the design principles (SOLID,
+                    DRY, Separation of Concerns, code readability, etc)
+                    <br />
+                    There was also a huge emphasis on The Apps Security (e.g.
+                    SQL enjection, Secure APIs, etc).
+                  </span>
+                </p>
+                <span class="read-more-btn">Read More . . .</span>
+                <!-- <div class="btn-con">
               <a href="#" class="main-btn">
                 <span class="btn-text">Download CV</span>
                 <span class="btn-icon"><em class="fas fa-download"></em></span>
               </a>
             </div> -->
+              </div>
+            </div>
           </div>
           <br />
           <div class="right-about">
@@ -759,16 +768,16 @@
     <div class="theme-btn">
       <em class="fas fa-adjust"></em>
     </div>
-    <script src="app.js"></script>
+    <footer>
+      <p id="current_date" class="footer-copyright">
+        <script>
+          date = new Date();
+          year = date.getFullYear();
+          document.getElementById("current_date").innerHTML =
+            "© " + year + " Ismail Chbiki";
+        </script>
+      </p>
+    </footer>
+    <script src="script.js"></script>
   </body>
-  <footer>
-    <p id="current_date" class="footer-copyright">
-      <script>
-        date = new Date();
-        year = date.getFullYear();
-        document.getElementById("current_date").innerHTML =
-          "© " + year + " Ismail Chbiki";
-      </script>
-    </p>
-  </footer>
 </html>
