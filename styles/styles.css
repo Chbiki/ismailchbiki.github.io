@@ -670,11 +670,13 @@ section {
 .contact-content-con .left-contact .contact-info .contact-item p {
   margin: 0.3rem 0 !important;
   padding: 0 !important;
+  color: var(--color-grey-2);
 }
 
 .contact-content-con .left-contact .contact-info .contact-item .icon {
   display: grid;
   grid-template-columns: 40px 1fr;
+  margin: 2px;
 }
 
 .contact-content-con .left-contact .contact-info .contact-item .icon em {
@@ -983,6 +985,14 @@ section {
 
   .main-title h2 .bg-text {
     font-size: 2.3rem;
+  }
+}
+
+@media screen and (min-width: 1432px) {
+  .contact-content-con .left-contact .contact-info .contact-item{
+    flex-direction: column;
+    margin: 1.2rem;
+    text-align: center;
   }
 }
 
