@@ -1,11 +1,10 @@
 User-agent: *
-Disallow: 
-Disallow: /cgi-bin/
-Disallow: /styles
+Allow: /
+Disallow: /.git
 Disallow: /.gitignore
-Disallow: /70c2f2a3945d4ec8b080e844d42ec42f
-Disallow: /CNAME
+Disallow: /styles
 Disallow: /script
-Disallow: /sitemap
+Disallow: /CNAME
+Disallow: /70c2f2a3945d4ec8b080e844d42ec42f
 
-Sitemap: https://ismailchbiki.com/sitemap.xml  
+Sitemap: https://ismailchbiki.com/sitemap.xml
