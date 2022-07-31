@@ -2,8 +2,6 @@ User-agent: *
 Allow: /
 Disallow: /.git
 Disallow: /.gitignore
-Disallow: /styles
-Disallow: /script
 Disallow: /CNAME
 Disallow: /70c2f2a3945d4ec8b080e844d42ec42f
 
