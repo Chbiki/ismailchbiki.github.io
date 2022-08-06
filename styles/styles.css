@@ -233,7 +233,7 @@ section {
 }
 
 .header-content .right-header .name {
-  font-size: 3rem;
+  font-size: 2.4rem;
 }
 
 .header-content .right-header .name span {
@@ -989,7 +989,7 @@ section {
 }
 
 @media screen and (min-width: 1432px) {
-  .contact-content-con .left-contact .contact-info .contact-item{
+  .contact-content-con .left-contact .contact-info .contact-item {
     flex-direction: column;
     margin: 1.2rem;
     text-align: center;
