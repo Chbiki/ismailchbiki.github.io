@@ -142,12 +142,13 @@
             to find out more about me.
           </p>
 
-          <!-- <div class="btn-con">
+          <!-- Display: None currently -->
+          <div style="display: none" class="btn-con">
             <a href="" class="main-btn">
               <span class="btn-text">Download CV</span>
               <span class="btn-icon"><em class="fas fa-download"></em></span>
             </a>
-          </div> -->
+          </div>
         </div>
       </div>
     </header>
@@ -164,8 +165,7 @@
             <div class="read-more-container">
               <div class="container-about-me">
                 <p>
-                  Hi, I am <strong>Ismail</strong>. It is really nice to have
-                  you passing by.
+                  Hi, It is really nice to have you passing by.
                   <br />
                   Allow me to introduce myself.
                   <br />
@@ -290,12 +290,15 @@
                 <span onclick="window.location='#about'" class="read-more-btn"
                   >Read More . . .</span
                 >
-                <!-- <div class="btn-con">
-              <a href="#" class="main-btn">
-                <span class="btn-text">Download CV</span>
-                <span class="btn-icon"><em class="fas fa-download"></em></span>
-              </a>
-            </div> -->
+                <!-- Display: None currently -->
+                <div style="display: none" class="btn-con">
+                  <a href="#" class="main-btn">
+                    <span class="btn-text">Download CV</span>
+                    <span class="btn-icon"
+                      ><em class="fas fa-download"></em
+                    ></span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -310,11 +313,20 @@
             </div>
             <div class="about-item">
               <div class="abt-text">
-                <p class="large-text">1+</p>
+                <p id="years_of_experience" class="large-text">
+                  <script>
+                    date = new Date();
+                    yearsExperience = date.getFullYear() - Number(2021);
+                    document.getElementById("years_of_experience").innerHTML =
+                      yearsExperience + " +";
+                  </script>
+                </p>
                 <p class="small-text">Years of experience</p>
               </div>
             </div>
-            <!-- <div class="about-item">
+
+            <!-- Display: None currently -->
+            <div style="display: none" class="about-item">
               <div class="abt-text">
                 <p class="large-text">300+</p>
                 <p class="small-text">
@@ -322,8 +334,10 @@
                   Clients
                 </p>
               </div>
-            </div> -->
-            <!-- <div class="about-item">
+            </div>
+
+            <!-- Display: None currently -->
+            <div style="display: none" class="about-item">
               <div class="abt-text">
                 <p class="large-text">400+</p>
                 <p class="small-text">
@@ -331,7 +345,7 @@
                   reviews
                 </p>
               </div>
-            </div> -->
+            </div>
           </div>
         </div>
         <div class="about-stats">
@@ -412,7 +426,7 @@
             <div class="progress-bar">
               <p class="prog-title">Git</p>
               <div class="progress-con">
-                <p class="prog-text">70%</p>
+                <p class="prog-text">80%</p>
                 <div class="progress">
                   <span class="git"></span>
                 </div>
@@ -446,7 +460,9 @@
               Software Solution.
             </p>
           </div>
-          <!-- <div class="timeline-item">
+
+          <!-- Display: None currently -->
+          <div style="display: none" class="timeline-item">
             <div class="tl-icon">
               <em class="fas fa-briefcase"></em>
             </div>
@@ -456,8 +472,10 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
               quasi vero fugit.
             </p>
-          </div> -->
-          <!-- <div class="timeline-item">
+          </div>
+
+          <!-- Display: None currently -->
+          <div style="display: none" class="timeline-item">
             <div class="tl-icon">
               <em class="fas fa-briefcase"></em>
             </div>
@@ -467,8 +485,10 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
               quasi vero fugit.
             </p>
-          </div> -->
-          <!-- <div class="timeline-item">
+          </div>
+
+          <!-- Display: None currently -->
+          <div style="display: none" class="timeline-item">
             <div class="tl-icon">
               <em class="fas fa-briefcase"></em>
             </div>
@@ -478,8 +498,10 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
               quasi vero fugit.
             </p>
-          </div> -->
-          <!-- <div class="timeline-item">
+          </div>
+
+          <!-- Display: None currently -->
+          <div style="display: none" class="timeline-item">
             <div class="tl-icon">
               <em class="fas fa-briefcase"></em>
             </div>
@@ -489,8 +511,10 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
               quasi vero fugit.
             </p>
-          </div> -->
-          <!-- <div class="timeline-item">
+          </div>
+
+          <!-- Display: None currently -->
+          <div style="display: none" class="timeline-item">
             <div class="tl-icon">
               <em class="fas fa-briefcase"></em>
             </div>
@@ -500,7 +524,7 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
               quasi vero fugit.
             </p>
-          </div> -->
+          </div>
         </div>
       </section>
       <section style="display: none" class="container" id="portfolio">
@@ -885,12 +909,16 @@
           <em class="fas fa-user"></em>
         </div>
       </div>
-      <!-- <div class="control" data-id="portfolio">
+
+      <!-- Display: None currently -->
+      <div style="display: none" class="control" data-id="portfolio">
         <em class="fas fa-briefcase"></em>
-      </div> -->
-      <!-- <div class="control" data-id="blogs">
+      </div>
+
+      <!-- Display: None currently -->
+      <div style="display: none" class="control" data-id="blogs">
         <em class="far fa-newspaper"></em>
-      </div> -->
+      </div>
       <div class="control" data-id="contact">
         <div class="item">
           <div class="tooltip">Contact</div>
@@ -914,7 +942,7 @@
         </script>
       </p>
     </footer>
-    <script src="script.js"></script>
-    <script src="app.js"></script>
   </body>
+  <script src="script.js"></script>
+  <script src="app.js"></script>
 </html>
