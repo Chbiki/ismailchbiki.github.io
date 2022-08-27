@@ -133,9 +133,8 @@ section {
   border-radius: 3px;
   color: #fff;
   padding: 0.2rem 0.5rem;
-  left: -9vh;
+  left: -6.8vh;
   transform: translateX(-50%);
-  /* top: -35px; */
   display: none;
   transition: all 0.4s;
   font-size: 15px;
